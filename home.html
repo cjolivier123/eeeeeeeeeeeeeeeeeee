@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureBank - Modern Banking Solution</title>
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-gray-800 fixed w-full z-10 top-0">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <a href="/" class="text-white font-bold text-xl">SecureBank</a>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <a href="/login" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
+            <a href="/register" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Register</a>
+            <a href="/dashboard" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+            <a href="/logout" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container mx-auto px-4 min-h-screen pt-24">
+      <div class="text-center py-16">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Welcome to SecureBank</h1>
+        <p class="text-xl text-gray-600 mb-8">Your trusted partner for secure online banking</p>
+          <a href="/login" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors mr-4">
+            Login
+          </a>
+          <a href="/register" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+            Register
+          </a>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8 py-12">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-4">Secure Banking</h3>
+          <p class="text-gray-600">Bank with confidence knowing your data is protected by industry-leading security measures.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-4">Easy Transfers</h3>
+          <p class="text-gray-600">Send and receive money instantly with our intuitive transfer system.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-4">24/7 Support</h3>
+          <p class="text-gray-600">Our dedicated support team is always here to help you with any questions.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

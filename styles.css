@@ -1,0 +1,18 @@
+/* Base styles */
+:root {
+  --background-color: #1a202c;
+  --text-color: #e2e8f0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.mobile-logout-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
